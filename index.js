@@ -80,5 +80,6 @@ function checkGuess(){
     guessField.focus();
 }
 
+// Listen 상태에서 guessSubmit에 대한 click event 발생 시 해당 함수 실행
 guessSubmit.addEventListener("click", checkGuess)
 
